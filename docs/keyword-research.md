@@ -93,3 +93,7 @@ The video counts come from three YouTube searches, so they undercount. The views
 4. A guardrails walkthrough that uses pi-warden as the example.
 
 Each page needs a real test run before publishing. This research says what people search for. It does not say Jev beats the alternatives, and the [limits](../README.md#limits-of-jev-113) still apply.
+
+## Refresh 2026-09-26
+
+I tried to refresh the search volumes through treg. Its two main keyword-volume providers reported no quota left, so I used a third one (Serpstat, about $0.0005 a call). It returned data for only two of 17 terms: "ai router" at 880 a month (unchanged from 2026-09-20) and "typesafe" at 110 a month. It had nothing for "typesafe ai", "jev ai", "jev model", "claude code router", "llm router" or the others, which means they are still too small or too new for that provider. The volumes in the table above are therefore still the 2026-09-20 figures. Re-run this when the main providers have quota again, and check Google Trends by hand for the launch terms.
