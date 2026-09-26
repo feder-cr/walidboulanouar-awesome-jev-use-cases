@@ -243,7 +243,7 @@ To use anything in this list, copy the pattern, get a key, and start with one qu
 
 ## Numbers at a glance
 
-Last refreshed 2026-09-26: repository stars, licenses and last-push dates were re-read from GitHub, 12 community pull requests and 3 issue suggestions were reviewed and merged, and 3 repositories that no longer exist were removed. Demo likes and views are still the 2026-09-19 snapshot.
+Last refreshed 2026-09-26: repository stars, licenses and last-push dates were re-read from GitHub, 12 community pull requests and 3 issue suggestions were reviewed and merged, and 3 repositories that no longer exist were removed. A second GitHub sweep added 33 repositories and listed 507 more in a CSV. Demo likes and views are still the 2026-09-19 snapshot.
 
 | Number | Value |
 | --- | --- |
@@ -499,6 +499,44 @@ Found by searching GitHub for the model and company names on 2026-09-19. Stars a
 - [Olli0103/openclaw-typesafe-ai](https://github.com/Olli0103/openclaw-typesafe-ai). Optional typed TypeSafe AI Jev decisions for OpenClaw, with SecretRef credentials and strict API validation. 1 stars, TypeScript, MIT License.
 - [harshithsunku/learn-jev-end-to-end](https://github.com/harshithsunku/learn-jev-end-to-end) by @harshithsunku. Free course of 12 Python notebooks that puts Jev inside an LLM agent loop as router, tool-call guard (a `Choice` of allow, ask or block plus `Noul` checks), done gate and judge across 13 use cases, with every tool read-only or dry-run. The author reports, from two runs on 2026-09-23, that Jev matched a frontier LLM (92%) on a 40-email 8-way `Choice` task at 7-8x lower median latency and 87-88x lower cost, while the LLMs were more confident than Jev on an easy 40-SMS scam task.
 
+### Second sweep, 2026-09-26
+
+A second GitHub search a week after the first found 507 more repositories created since 2026-09-10 that mention Jev or TypeSafe in their description. The 33 below have at least 25 stars, and I checked that each README mentions Jev or TypeSafe. I wrote the descriptions from each repository's own summary and did not read every README, so verify before you depend on one. All 507 are in [data/new-repos-2026-09-26.csv](data/new-repos-2026-09-26.csv).
+
+- [kerpopule/hermes-jev-skills](https://github.com/kerpopule/hermes-jev-skills). Jev-powered skills for the Hermes agent: model routing, memory, compaction, skill selection, and computer and browser use. 850 stars, Python as of 2026-09-26.
+- [anishfn/shapeshift](https://github.com/anishfn/shapeshift). One text box that morphs into the right UI as you type, with Jev deciding what the input means. 676 stars, TypeScript as of 2026-09-26.
+- [0xNatoshi/jev-codex-router](https://github.com/0xNatoshi/jev-codex-router). Per-turn routing for Codex: Jev picks the model and reasoning effort for each turn. 274 stars, JavaScript as of 2026-09-26.
+- [allebee/jevk5](https://github.com/allebee/jevk5). An open-weight alternative to Jev that returns typed decisions with probabilities in one forward pass. 109 stars, Python as of 2026-09-26.
+- [Ying-Kai-Liao/jev-browser](https://github.com/Ying-Kai-Liao/jev-browser). Browser automation where an LLM plans and Jev decides each step. Ships as a library, a CLI and an MCP server. 90 stars, JavaScript as of 2026-09-26.
+- [Bodila51/grok-bot-jev](https://github.com/Bodila51/grok-bot-jev). Connects Jev to Grok Bot as a cheap decision layer, with usage gates, a skill template and examples. 83 stars, Python as of 2026-09-26.
+- [hyperspaceai/jevcache](https://github.com/hyperspaceai/jevcache). A decision cache for Jev-class models that memoizes decisions so repeated questions cost nothing. 73 stars as of 2026-09-26.
+- [1Panel-dev/laya-server](https://github.com/1Panel-dev/laya-server). A self-hosted API and web interface for Laya structured decision models, compatible with the Jev API format. 72 stars, TypeScript as of 2026-09-26.
+- [mode-io/vllm-jev](https://github.com/mode-io/vllm-jev). Native vLLM serving for Jev-style decision models. 49 stars, Python as of 2026-09-26.
+- [intikhab49/open-jev-typed-decision-engine](https://github.com/intikhab49/open-jev-typed-decision-engine). An open reproduction of Jev: a 150M typed decision engine answering noul, choice and score in one non-autoregressive pass. 44 stars, Python as of 2026-09-26.
+- [JoshuaSP/open-jev](https://github.com/JoshuaSP/open-jev). Typed JSON inference with DiffusionGemma, with benchmark results against Jev. 41 stars, Python as of 2026-09-26.
+- [PerryLink/jevcore](https://github.com/PerryLink/jevcore). Jev for the DeepSeek harness, the Model Context Protocol and plain Node: typed judgments from one package. 40 stars, TypeScript as of 2026-09-26.
+- [shantanugoel/ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill). A skill that lets Hermes and other agents ask Jev questions. 40 stars, Python as of 2026-09-26.
+- [emrickgarrett/OneVOneJev](https://github.com/emrickgarrett/OneVOneJev). A 1v1 quickscope arena game in Three.js where Jev makes the opponent decisions. 39 stars, TypeScript as of 2026-09-26.
+- [danvega/jev-spring-boot-starter](https://github.com/danvega/jev-spring-boot-starter). A Spring Boot 4 starter for Jev built on Spring MVC and RestClient. 37 stars, Java as of 2026-09-26.
+- [spring-ai-community/spring-ai-typesafe](https://github.com/spring-ai-community/spring-ai-typesafe). A Java SDK for the TypeSafe API plus Spring AI integrations. 37 stars, Java as of 2026-09-26.
+- [klauswg/jev-guard](https://github.com/klauswg/jev-guard). A real-time risk triage gateway for exchange deposits and withdrawals, with Jev doing the triage. 37 stars, Java as of 2026-09-26.
+- [kyu1204/jgrep](https://github.com/kyu1204/jgrep). Semantic code search that greps for what code does, not what it is called, scored by Jev. 36 stars, TypeScript as of 2026-09-26.
+- [kiwi0719/jev-edge](https://github.com/kiwi0719/jev-edge). Typed-judgment admission control at the traffic edge, with a three-layer filter for prompt injection and abuse. 36 stars, Lua as of 2026-09-26.
+- [safzanpirani/pi-jev-skill-picker](https://github.com/safzanpirani/pi-jev-skill-picker). Ranks Pi agent skills for the current task with Jev. 35 stars, TypeScript as of 2026-09-26.
+- [win4r/jev-skill-suggester](https://github.com/win4r/jev-skill-suggester). Bounded recommendations of installed skills with Jev, in Python. 33 stars, Python as of 2026-09-26.
+- [zhangcy122/OpenJev](https://github.com/zhangcy122/OpenJev). A self-evolving decision engine positioned as a Jev alternative. 33 stars, Python as of 2026-09-26.
+- [bytelabs-oss/clash-jev](https://github.com/bytelabs-oss/clash-jev). A Clash Royale bot with no trained policy, where Jev makes every in-game decision. 33 stars, Python as of 2026-09-26.
+- [klauswg/jev-suite](https://github.com/klauswg/jev-suite). Four decision-quality tools built on Jev that answer structured questions and check the answers. 33 stars, Java as of 2026-09-26.
+- [VGabriel45/polymarket-btc5m-jev-trading](https://github.com/VGabriel45/polymarket-btc5m-jev-trading). A trading agent for 5-minute BTC up/down markets on Polymarket that uses Jev as the decision layer, with a terminal UI. Not financial advice. 31 stars, TypeScript as of 2026-09-26.
+- [PromptEngineer48/laya-vs-jev-arena](https://github.com/PromptEngineer48/laya-vs-jev-arena). Laya (open source, local) against Jev (API): two models race in Snake and fight in a Mortal Kombat-style game. 30 stars, JavaScript as of 2026-09-26.
+- [mattn/go-jev](https://github.com/mattn/go-jev). A Go SDK and CLI for Jev returning yes/no, choice and score decisions. 30 stars, Go as of 2026-09-26.
+- [chy4pro/jev-for-chrome](https://github.com/chy4pro/jev-for-chrome). Drives the tab you are looking at with Jev, using its sub-second decisions. 29 stars, TypeScript as of 2026-09-26.
+- [shaharia-lab/jev-cli](https://github.com/shaharia-lab/jev-cli). A command-line tool for Jev: yes/no, multiple-choice and rubric questions. 29 stars, Rust as of 2026-09-26.
+- [AkashPriyadarshii/jev-superpowers](https://github.com/AkashPriyadarshii/jev-superpowers). A software development framework for AI coding agents, upgraded with Jev. 27 stars, HTML as of 2026-09-26.
+- [jomatsu/pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode). An auto mode for the Pi coding agent where Jev semantically decides what to auto-approve. 27 stars, TypeScript as of 2026-09-26.
+- [keeltrace/hermes-nerve](https://github.com/keeltrace/hermes-nerve). A supervisory layer for Hermes agents that adds typed Jev decisions. 26 stars, Python as of 2026-09-26.
+- [buberlo/jev-trader](https://github.com/buberlo/jev-trader). A market-making system around Jev decisions with deterministic state. Not financial advice. 25 stars, Python as of 2026-09-26.
+
 ### SDKs and clients
 
 Unofficial libraries for calling the TypeSafe API from other languages.
@@ -586,6 +624,10 @@ A second GitHub sweep on 2026-09-19 found 111 more repositories that mention Jev
 #### Other lists
 
 - [sontakey/awesome-jev](https://github.com/sontakey/awesome-jev). Unofficial list of insanely useful TypeSafe AI Jev / System One projects. 2 stars.
+- [AbdelStark/awesome-typesafe-jev](https://github.com/AbdelStark/awesome-typesafe-jev). A source-backed field guide to Jev with SDKs and live demos. 528 stars as of 2026-09-26.
+- [wuyoscar/jev-skill](https://github.com/wuyoscar/jev-skill). A collection of Jev use cases, workflows and agent skills. 501 stars as of 2026-09-26.
+- [AnotiaWang/awesome-jev](https://github.com/AnotiaWang/awesome-jev). A curated list of Jev applications, libraries and resources. 491 stars as of 2026-09-26.
+- [yzfly/awesome-jev-zh](https://github.com/yzfly/awesome-jev-zh). A Chinese-language list of Jev resources, apps, agent tools and reproductions. 76 stars as of 2026-09-26.
 
 ## Search demand
 
